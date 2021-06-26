@@ -29,7 +29,7 @@ String multiMovieYn = request.getParameter("multiMovieYn") == null ? "" : reques
 String repNationCd = request.getParameter("repNationCd") == null ? "" : request.getParameter("repNationCd"); 
 String wideAreaCd = request.getParameter("wideAreaCd") == null ? "" : request.getParameter("wideAreaCd"); 
 
-String key = "ac36eefcf50c6080ec780697733b8f1b";
+String key = "Your key input";
 KobisOpenAPIRestService service = new KobisOpenAPIRestService(key);
 
 String dailyResponse = service.getDailyBoxOffice(true, targetDt, itemPerPage, multiMovieYn, repNationCd, wideAreaCd);
